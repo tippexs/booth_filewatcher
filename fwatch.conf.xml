@@ -5,7 +5,7 @@
 	<ThumbHeight>450</ThumbHeight>
 	<ThumbWidth>450</ThumbWidth>
 	<watchFile>*</watchFile>
-	<WEBImgPathThumb>C:\bind\websrv\htdocs\fotokiste\images\thumbs</WEBImgPathThumb>
-	<WEBImgPathOrig>C:\bind\websrv\htdocs\fotokiste\images\original</WEBImgPathOrig>
+	<WEBImgPathThumb>C:\bind\websrv\htdocs\****\images\thumbs</WEBImgPathThumb>
+	<WEBImgPathOrig>C:\bind\websrv\htdocs\****\images\original</WEBImgPathOrig>
 	<loggerPath>C:\bind\watcher\log\fwatch.log</loggerPath>
 </configuration>
