@@ -1,0 +1,11 @@
+<configuration>
+	<watchPath>C:\Users\Photobooth\Desktop\prints</watchPath>
+	<Subdir>true</Subdir>
+	<imageMagick>C:\Program Files\ImageMagick-6.9.0-Q16</imageMagick>
+	<ThumbHeight>450</ThumbHeight>
+	<ThumbWidth>450</ThumbWidth>
+	<watchFile>*</watchFile>
+	<WEBImgPathThumb>C:\bind\websrv\htdocs\fotokiste\images\thumbs</WEBImgPathThumb>
+	<WEBImgPathOrig>C:\bind\websrv\htdocs\fotokiste\images\original</WEBImgPathOrig>
+	<loggerPath>C:\bind\watcher\log\fwatch.log</loggerPath>
+</configuration>
