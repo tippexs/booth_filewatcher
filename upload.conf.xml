@@ -1,0 +1,9 @@
+<sftpupload>
+	<SFTPUpload>true</SFTPUpload>
+	<Host>HOST</Host>
+        <User>USER</User>
+        <Password>PASSWORD</Password>
+	<Fingerprint>SSHRSA-FINGERPRINT</Fingerprint>
+	<ErrorLog>PATH_TO_ERROR_LOG</ErrorLog>
+	<RemotePath>REMOTE_SERVER_PATH(Default /)</RemotePath>
+</sftpupload>

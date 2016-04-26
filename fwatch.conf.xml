@@ -1,11 +1,23 @@
 <configuration>
-	<watchPath>C:\Users\Photobooth\Desktop\prints</watchPath>
-	<Subdir>true</Subdir>
 	<imageMagick>C:\Program Files\ImageMagick-6.9.0-Q16</imageMagick>
 	<ThumbHeight>450</ThumbHeight>
 	<ThumbWidth>450</ThumbWidth>
-	<watchFile>*</watchFile>
-	<WEBImgPathThumb>C:\bind\websrv\htdocs\****\images\thumbs</WEBImgPathThumb>
-	<WEBImgPathOrig>C:\bind\websrv\htdocs\****\images\original</WEBImgPathOrig>
-	<loggerPath>C:\bind\watcher\log\fwatch.log</loggerPath>
+	<OriginalPerc>100%</OriginalPerc>
+	<WEBImgPathThumb>PATH_TO_WEBSERVER_THUMB_DIR</WEBImgPathThumb>
+	<WEBImgPathOrig>PATH_TO_WEBSERVER_ORIG_DIR</WEBImgPathOrig>
+	<loggerPath>PATH_TO_LOG_DIR</loggerPath>
+
+	<watcher>
+		<watchFile>*</watchFile>
+		<Subdir>false</Subdir>
+		<id>filewatcher1</id>
+		<watchPath>PATH_TO_WATCHFOLDER1</watchPath>
+	</watcher>	
+	<watcher>
+		<watchFile>*</watchFile>
+		<Subdir>false</Subdir>
+		<id>filewatcher2</id>
+		<watchPath>PATH_TO_WATCHFOLDER1</watchPath>
+	</watcher>
+
 </configuration>
