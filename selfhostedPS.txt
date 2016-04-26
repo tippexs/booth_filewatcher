@@ -1,1 +1,0 @@
-New-SelfHostedPS .\servicefile.ps1 -Service -ServiceName ServiceName -ServiceDisplayName "Service Description"
